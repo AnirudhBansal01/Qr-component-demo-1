@@ -1,5 +1,5 @@
 body{
-  background-color: #81C6E8;
+  background-color: var(hsl(212,45%,89%));
 }
 h5{
   text-align: center;
@@ -21,24 +21,12 @@ p{
 }
 .qr-code{
   width: 18rem;
+  height : 480px;
+  max-width  : 310px;
   border-radius: 5%;
   position : absolute;
 }
-@media(max-width : 480px){
+@media(min-width : 480px){
   .qr-code{
-    left : 20%;
-    bottom : 15%;
-  }
-}
-@media(min-width : 480px) and (max-width : 900px){
-  .qr-code{
-      left : 20%;
-      bottom :20%;
-  }
-}
-@media(min-width : 900px){
-  .qr-code{
-     left : 40%;
-     bottom : 20%;
-  }
+    width  : 400px;
 }
