@@ -1,0 +1,44 @@
+body{
+  background-color: #81C6E8;
+}
+h5{
+  text-align: center;
+  font-family: 'Outfit' ,sans-serif;
+  font-weight: 700;
+}
+p{
+  text-align: center;
+  font-family: 'Outfit' ,sans-serif;
+  font-weight: 400;
+  color: #B2B2B2;
+}
+.card-image{
+  border-radius: 10%;
+  position: relative;
+  left: 2.5%;
+  width: 17rem;
+  margin-top: 2.5%;
+}
+.qr-code{
+  width: 18rem;
+  border-radius: 5%;
+  position : absolute;
+}
+@media(max-width : 480px){
+  .qr-code{
+    left : 20%;
+    bottom : 15%;
+  }
+}
+@media(min-width : 480px) and (max-width : 900px){
+  .qr-code{
+      left : 20%;
+      bottom :20%;
+  }
+}
+@media(min-width : 900px){
+  .qr-code{
+     left : 40%;
+     bottom : 20%;
+  }
+}
