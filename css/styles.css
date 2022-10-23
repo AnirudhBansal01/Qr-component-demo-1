@@ -22,9 +22,10 @@ p{
 .qr-code{
   width: 18rem;
   border-radius: 5%;
-  position : absolute;
+  margin: auto;
+  margin-top: 10%;
 }
-@media(max-width : 480px){
+/* @media(max-width : 480px){
   .qr-code{
     left : 20%;
     bottom : 15%;
@@ -41,5 +42,5 @@ p{
      left : 40%;
      bottom : 20%;
   }
-}
+} */
 
