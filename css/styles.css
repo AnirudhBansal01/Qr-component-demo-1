@@ -16,8 +16,8 @@ p{
   border-radius: 10%;
   position: relative;
   width: 17rem;
-  margin-top: 2.5%;
   margin : auto;
+  margin-top: 2.5%;
 }
 .qr-code{
   width: 18rem;
